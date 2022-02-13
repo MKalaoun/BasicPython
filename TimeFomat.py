@@ -1,0 +1,6 @@
+x = int(input("Enter elapsed time in seconds: "))
+hours =(x//3600)
+remain = (x%3600)
+min = (remain//60)
+sec = (remain%60)
+print ("Converted time: ",hours, " : ", min, " : ", sec)
